@@ -1,0 +1,726 @@
+Command: /home/verifier/ex/practise/chuangxin_frame_checker/frame_checker1/sim/out/build/./simv +ntb_random_seed=1976541515 +fsdb+force -cm line+branch+cond+tgl+assert+fsm -cm_dir /home/verifier/ex/practise/chuangxin_frame_checker/frame_checker1/sim/out/coverage/top_tb_1976541515 -cm_name top_tb_1976541515 -l /home/verifier/ex/practise/chuangxin_frame_checker/frame_checker1/sim/out/test/top_tb/top_tb.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Jun 20 18:24 2025
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB: The switch FSDB file size might not match the input size (1024MB) because of performance concerns.
+*Verdi* FSDB: To have the FSDB file size match the input size (1024MB), set the FSDB_ENV_PRECISE_AUTOSWITCH environment, though the dumping performance might decrease.
+*Verdi* : Enable automatic switching of the FSDB file.
+*Verdi* : (Filename='top_tb', Limit Size=1024MB, File Amount=0).
+*Verdi* : Create FSDB file 'top_tb_000.fsdb'
+*Verdi* : Create the file 'top_tb.log' to log the time range of each FSDB file.
+*Verdi* : Create virtual FSDB file 'top_tb.vf' to log each FSDB file.
+*Verdi* : Begin traversing the scope (top_tb), layer (0).
+*Verdi* : Enable +all and +force dumping.
+*Verdi* : End of traversing.
+this is a ERROR CRC frame 
+Check passed for channel 01
+ data       is 00000000000000003180b2eaf948bbe9,
+ data_rand  is 5e06b8654d5fe8b23180b2eaf948bbe9,
+ valid_byte is 08
+--------------the           1st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 04
+ data       is 000000000000c297b1aaa7d7e61719a8,
+ data_rand  is 77761ee46435c297b1aaa7d7e61719a8,
+ valid_byte is 0a
+--------------the           2st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 04
+ data       is 000021a3034e18b7191399632843d8f8,
+ data_rand  is c8f421a3034e18b7191399632843d8f8,
+ valid_byte is 0e
+--------------the           3st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 80
+ data       is 000000000000527f5781380086bc3512,
+ data_rand  is 0de39f2d8476527f5781380086bc3512,
+ valid_byte is 0a
+--------------the           4st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 40
+ data       is 00000000000000000000000094488a29,
+ data_rand  is ebcbba60c3a77056836de30c94488a29,
+ valid_byte is 04
+--------------the           5st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 20
+ data       is 00000000000000000000000000005af5,
+ data_rand  is a3c265c7e9c1dbc3b02acb1d163b5af5,
+ valid_byte is 02
+--------------the           6st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 04
+ data       is 00000000000038a64aae6fc65f380002,
+ data_rand  is d5e5cdfd631e38a64aae6fc65f380002,
+ valid_byte is 0a
+--------------the           7st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 08
+ data       is 000000000000da0998e83ae028eaf078,
+ data_rand  is f30500e9f45eda0998e83ae028eaf078,
+ valid_byte is 0a
+--------------the           8st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 04
+ data       is 000000000000371b05ce8cad20ce3034,
+ data_rand  is 75e30b7e89bf371b05ce8cad20ce3034,
+ valid_byte is 0a
+--------------the           9st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 10
+ data       is 0000000000000000a43e9f9f7afc6c8d,
+ data_rand  is 2a18664012a644d0a43e9f9f7afc6c8d,
+ valid_byte is 08
+--------------the          10st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 01
+ data       is 000000000000000000000000000000d7,
+ data_rand  is be4aad439bde3c62317fe753b2dd00d7,
+ valid_byte is 02
+--------------the          11st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 80
+ data       is 000000000000228de4596f98cb36c41f,
+ data_rand  is deb9046a544e228de4596f98cb36c41f,
+ valid_byte is 0a
+--------------the          12st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 20
+ data       is 00000000000000000000000079cf0678,
+ data_rand  is 48b5dc6e014ee9b0ec19df3079cf0678,
+ valid_byte is 04
+--------------the          13st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 02
+ data       is 000000000000000000000000000002c2,
+ data_rand  is 39bfae76ffcb45baadc783022ffe02c2,
+ valid_byte is 02
+--------------the          14st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 08
+ data       is 0000000000000000afaa47e9b01761fd,
+ data_rand  is dc68552126eb9420afaa47e9b01761fd,
+ valid_byte is 08
+--------------the          15st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 20
+ data       is 000000000000dfc2c042b78f4797b323,
+ data_rand  is 4c0bf36142f7dfc2c042b78f4797b323,
+ valid_byte is 0a
+--------------the          16st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 02
+ data       is 0000000000000000bd58c013dd6f7350,
+ data_rand  is 484a503fb3164d74bd58c013dd6f7350,
+ valid_byte is 08
+--------------the          17st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 80
+ data       is 000000000000000000000000b103ee82,
+ data_rand  is f1b74877f495bebf0e0c81f3b103ee82,
+ valid_byte is 04
+--------------the          18st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 80
+ data       is 0000000000000000000000000000bf2d,
+ data_rand  is add0adf421da379461b7280396abbf2d,
+ valid_byte is 02
+--------------the          19st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 40
+ data       is 00000000000000000000000000003402,
+ data_rand  is be0eea3f0a65bb1db8decbd01b803402,
+ valid_byte is 02
+--------------the          20st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 10
+ data       is 00000000000000000000000000005ef3,
+ data_rand  is f220d78dfc2176b814279536e6c55ef3,
+ valid_byte is 02
+--------------the          21st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 20
+ data       is 0000000000000000000000008d5c0e41,
+ data_rand  is fbdfbda92a124ee0ca74d3028d5c0e41,
+ valid_byte is 04
+--------------the          22st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 08
+ data       is 000000000000092e7f06303102e180d0,
+ data_rand  is 0a8cc4eeb96d092e7f06303102e180d0,
+ valid_byte is 0a
+--------------the          23st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 04
+ data       is 000000000000000043abc128a2c7e8f1,
+ data_rand  is 9961e16d79ad18d243abc128a2c7e8f1,
+ valid_byte is 08
+--------------the          24st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 08
+ data       is 00009a1d9ff8c9755c682604432599b0,
+ data_rand  is 18b59a1d9ff8c9755c682604432599b0,
+ valid_byte is 0e
+--------------the          25st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 02
+ data       is 000000000000000000000000f9714323,
+ data_rand  is ebe57df93f4b3455218d00d1f9714323,
+ valid_byte is 04
+--------------the          26st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 40
+ data       is 00003e5282d32e5cdf2a2ae463cf4fe5,
+ data_rand  is 5ebd3e5282d32e5cdf2a2ae463cf4fe5,
+ valid_byte is 0e
+--------------the          27st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 02
+ data       is 000039010c809ab035bc630d1d6dcc21,
+ data_rand  is 079939010c809ab035bc630d1d6dcc21,
+ valid_byte is 0e
+--------------the          28st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 01
+ data       is 00008c905743200674c407150d9ae512,
+ data_rand  is eece8c905743200674c407150d9ae512,
+ valid_byte is 0e
+--------------the          29st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 20
+ data       is 0000d8f1d6022f0f5cba929e79120bb8,
+ data_rand  is 91a4d8f1d6022f0f5cba929e79120bb8,
+ valid_byte is 0e
+--------------the          30st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 04
+ data       is 000000000000a28822ac356da7b5a329,
+ data_rand  is 6c9a075febbca28822ac356da7b5a329,
+ valid_byte is 0a
+--------------the          31st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 08
+ data       is e19b92de7ccd77916475564ffdcc88ca,
+ data_rand  is e19b92de7ccd77916475564ffdcc88ca,
+ valid_byte is 10
+--------------the          32st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 20
+ data       is 00000000000000000000000038103a21,
+ data_rand  is 103c41faea1a0990a387164f38103a21,
+ valid_byte is 04
+--------------the          33st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 04
+ data       is 00000000000000000e941b266ad1b646,
+ data_rand  is 2c644053f9b4d9480e941b266ad1b646,
+ valid_byte is 08
+--------------the          34st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 80
+ data       is 000000005c95f3746f5ab1758c2b4c7c,
+ data_rand  is 8efa6c3f5c95f3746f5ab1758c2b4c7c,
+ valid_byte is 0c
+--------------the          35st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 20
+ data       is 00000000b94989f1ea50003a96db2eea,
+ data_rand  is 488976b5b94989f1ea50003a96db2eea,
+ valid_byte is 0c
+--------------the          36st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 40
+ data       is 00000000945062c864dd0e866f5e4360,
+ data_rand  is 48ef36c7945062c864dd0e866f5e4360,
+ valid_byte is 0c
+--------------the          37st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 40
+ data       is 00000000000000000000000000008d7a,
+ data_rand  is 746c1725e1ca39758b456787ba378d7a,
+ valid_byte is 02
+--------------the          38st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 04
+ data       is 000007300731d331aed354c4ef0f70c7,
+ data_rand  is e09007300731d331aed354c4ef0f70c7,
+ valid_byte is 0e
+--------------the          39st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 01
+ data       is 00000000ecf6e6ec6f562b0e24d5351e,
+ data_rand  is a6a9909fecf6e6ec6f562b0e24d5351e,
+ valid_byte is 0c
+--------------the          40st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 04
+ data       is 000000000db30e828926d61944a88d87,
+ data_rand  is a131fc960db30e828926d61944a88d87,
+ valid_byte is 0c
+--------------the          41st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 40
+ data       is 0000000000000000000000005db1469f,
+ data_rand  is 7b009e1263ccdfe2c84d102d5db1469f,
+ valid_byte is 04
+--------------the          42st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 10
+ data       is 0000000000000000000000000000067a,
+ data_rand  is fcc0578447b02fd8747db919266f067a,
+ valid_byte is 02
+--------------the          43st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 08
+ data       is 00000000000000007ce30fa3c3b0f2c8,
+ data_rand  is f960e60d47a8baae7ce30fa3c3b0f2c8,
+ valid_byte is 08
+--------------the          44st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 10
+ data       is 00000000000000000000000000004f11,
+ data_rand  is ce92c15cd075ed771a9b098d6b6b4f11,
+ valid_byte is 02
+--------------the          45st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 02
+ data       is 0000290898670b4068725e09439f3a87,
+ data_rand  is 702d290898670b4068725e09439f3a87,
+ valid_byte is 0e
+--------------the          46st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 80
+ data       is 0000000000000000000000000000d76d,
+ data_rand  is 2eae40ec4787d0381c9c9d1258a7d76d,
+ valid_byte is 02
+--------------the          47st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 01
+ data       is 00009428a6cd510b7f80873116ac758c,
+ data_rand  is 8fb39428a6cd510b7f80873116ac758c,
+ valid_byte is 0e
+--------------the          48st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 04
+ data       is 00000000000000007797cd93653ec279,
+ data_rand  is 6389ba9266d995697797cd93653ec279,
+ valid_byte is 08
+--------------the          49st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 40
+ data       is c92c154633ab61bb28cec0e0ad3d3fa7,
+ data_rand  is c92c154633ab61bb28cec0e0ad3d3fa7,
+ valid_byte is 10
+--------------the          50st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 01
+ data       is 0000000000000f0f2c70796da8a1ccc2,
+ data_rand  is f507c59507750f0f2c70796da8a1ccc2,
+ valid_byte is 0a
+--------------the          51st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 40
+ data       is ef6fa4bdbb2ae93327fd256bb8fd28b2,
+ data_rand  is ef6fa4bdbb2ae93327fd256bb8fd28b2,
+ valid_byte is 10
+--------------the          52st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 01
+ data       is 000000000000000000007207f8a7523c,
+ data_rand  is b03aa5a1bdbb7eb320b77207f8a7523c,
+ valid_byte is 06
+--------------the          53st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 20
+ data       is 00002d2b640b1bc0f6e7f60897ebf8b6,
+ data_rand  is 9b992d2b640b1bc0f6e7f60897ebf8b6,
+ valid_byte is 0e
+--------------the          54st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 20
+ data       is 00000000551406e8c9de7b8898781675,
+ data_rand  is 88f889be551406e8c9de7b8898781675,
+ valid_byte is 0c
+--------------the          55st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 10
+ data       is 0000aae78ac1f38d66bb6e3f451fb40d,
+ data_rand  is da67aae78ac1f38d66bb6e3f451fb40d,
+ valid_byte is 0e
+--------------the          56st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 40
+ data       is 0000000000000000000029b760cc4ca2,
+ data_rand  is 9809e1647ee920daca3029b760cc4ca2,
+ valid_byte is 06
+--------------the          57st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 80
+ data       is 00000000000064bc18dc705fc137f3ca,
+ data_rand  is 9da866b84d1764bc18dc705fc137f3ca,
+ valid_byte is 0a
+--------------the          58st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 40
+ data       is 00000000000000000000000000008671,
+ data_rand  is ab09f7a1a1e8e6e47f62abad62758671,
+ valid_byte is 02
+--------------the          59st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 08
+ data       is 0000a97944643326a9d5278b98785c56,
+ data_rand  is 3ed7a97944643326a9d5278b98785c56,
+ valid_byte is 0e
+--------------the          60st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 01
+ data       is 0000000000000000d2d95a00a36bf77f,
+ data_rand  is cf1ca19b09746540d2d95a00a36bf77f,
+ valid_byte is 08
+--------------the          61st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 04
+ data       is 0000000000000000000000007a065bce,
+ data_rand  is f23d7ea8df01907e1b96fefb7a065bce,
+ valid_byte is 04
+--------------the          62st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 02
+ data       is 0000000000000000000000008e157faa,
+ data_rand  is 0ba27a3a1068e2dd279aa00a8e157faa,
+ valid_byte is 04
+--------------the          63st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 02
+ data       is 00000000000000000000000000001917,
+ data_rand  is c1d0604bea0a472c08eb22f0cdbf1917,
+ valid_byte is 02
+--------------the          64st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 01
+ data       is 00000000cf1e3c9044e3725c34528852,
+ data_rand  is 532fcdbecf1e3c9044e3725c34528852,
+ valid_byte is 0c
+--------------the          65st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 08
+ data       is 00000000000000003ff7c36e392c97d8,
+ data_rand  is b0462075a303eb713ff7c36e392c97d8,
+ valid_byte is 08
+--------------the          66st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 20
+ data       is 0000000000007111570b35dd36cc312c,
+ data_rand  is b3ba1c978cac7111570b35dd36cc312c,
+ valid_byte is 0a
+--------------the          67st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 10
+ data       is 000000000000000000000000000082ff,
+ data_rand  is 631daac5a9643e9da964e25a55fd82ff,
+ valid_byte is 02
+--------------the          68st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 20
+ data       is 00000000a6d7eae12e7d8f82a6139836,
+ data_rand  is 7af385b9a6d7eae12e7d8f82a6139836,
+ valid_byte is 0c
+--------------the          69st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 10
+ data       is 0000000059017be11935c2989f7d2da3,
+ data_rand  is 3bdde1d659017be11935c2989f7d2da3,
+ valid_byte is 0c
+--------------the          70st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 40
+ data       is 000000000000369de1a4de416c258b34,
+ data_rand  is f8981dc28422369de1a4de416c258b34,
+ valid_byte is 0a
+--------------the          71st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 20
+ data       is a8d0ba74a83203d4b831679f35f4f618,
+ data_rand  is a8d0ba74a83203d4b831679f35f4f618,
+ valid_byte is 10
+--------------the          72st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 40
+ data       is 00000000000000003b0ef465cf809e9a,
+ data_rand  is bf2e213c528767c23b0ef465cf809e9a,
+ valid_byte is 08
+--------------the          73st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 20
+ data       is 00000000aa33a84b5628e8e1e77628f0,
+ data_rand  is 939c39b5aa33a84b5628e8e1e77628f0,
+ valid_byte is 0c
+--------------the          74st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 08
+ data       is 0945782f229435bd403e90dd978a7eff,
+ data_rand  is 0945782f229435bd403e90dd978a7eff,
+ valid_byte is 10
+--------------the          75st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 80
+ data       is 00000000000000000000bc13b5024c96,
+ data_rand  is 0337816d3bdb4921cda8bc13b5024c96,
+ valid_byte is 06
+--------------the          76st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 20
+ data       is 00000000000000000000cac806f04f2c,
+ data_rand  is c1bb524d8cb60d98874bcac806f04f2c,
+ valid_byte is 06
+--------------the          77st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 80
+ data       is 457f425c8851c1f82e64b9022875e3b7,
+ data_rand  is 457f425c8851c1f82e64b9022875e3b7,
+ valid_byte is 10
+--------------the          78st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 02
+ data       is 0000000000000000000000004291e991,
+ data_rand  is 29185ad9d041463f006175c24291e991,
+ valid_byte is 04
+--------------the          79st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 40
+ data       is 00000000000000000000000000002be2,
+ data_rand  is 1e7ff0d5c302b3d07038d583f4f22be2,
+ valid_byte is 02
+--------------the          80st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 04
+ data       is 0000000000000000000000000000f33f,
+ data_rand  is 19769f486f2a74da667a152df6dbf33f,
+ valid_byte is 02
+--------------the          81st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 02
+ data       is 000000000000000000000000633cdf40,
+ data_rand  is 2ad46ccfdf1b1a0eb8f1746e633cdf40,
+ valid_byte is 04
+--------------the          82st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 02
+ data       is 00000000e6ca7c6c84ea084e1e1299cc,
+ data_rand  is 748c5978e6ca7c6c84ea084e1e1299cc,
+ valid_byte is 0c
+--------------the          83st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 80
+ data       is 000000000000000000000000e5b00930,
+ data_rand  is 9efa6ddf75d050c61bcd7266e5b00930,
+ valid_byte is 04
+--------------the          84st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 10
+ data       is 0000766ce868c7e7b68c2cae6bbeca66,
+ data_rand  is 4e05766ce868c7e7b68c2cae6bbeca66,
+ valid_byte is 0e
+--------------the          85st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 20
+ data       is 00000000000000000000000000009787,
+ data_rand  is ff3a0d7f1e0b420a458853d05ac69787,
+ valid_byte is 02
+--------------the          86st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 01
+ data       is 0000000000000000000000001e49df77,
+ data_rand  is b5343524bcd57d57d09288dc1e49df77,
+ valid_byte is 04
+--------------the          87st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 02
+ data       is d28422cf17f20303c4d8aa91cda1b845,
+ data_rand  is d28422cf17f20303c4d8aa91cda1b845,
+ valid_byte is 10
+--------------the          88st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 20
+ data       is 000000000000000000000000cca8e027,
+ data_rand  is f49b55330beceb6565a32b70cca8e027,
+ valid_byte is 04
+--------------the          89st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 02
+ data       is 9497fa874a483b1709882331b9539d85,
+ data_rand  is 9497fa874a483b1709882331b9539d85,
+ valid_byte is 10
+--------------the          90st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 10
+ data       is 000000000000000000000000cdc46073,
+ data_rand  is 20fc89958059ecfae9585b03cdc46073,
+ valid_byte is 04
+--------------the          91st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 20
+ data       is 42d35cad03a0762c31f82e8b4a935b36,
+ data_rand  is 42d35cad03a0762c31f82e8b4a935b36,
+ valid_byte is 10
+--------------the          92st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 02
+ data       is 000000000000862f334fdec1bb4aa1d6,
+ data_rand  is 336e0b01493c862f334fdec1bb4aa1d6,
+ valid_byte is 0a
+--------------the          93st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 40
+ data       is 00000000000000000000be8b89095d81,
+ data_rand  is aaccc326542c065bf404be8b89095d81,
+ valid_byte is 06
+--------------the          94st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 80
+ data       is e45896cb57046defe0da05723aa587d4,
+ data_rand  is e45896cb57046defe0da05723aa587d4,
+ valid_byte is 10
+--------------the          95st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 01
+ data       is 0000000000000000000000006b330367,
+ data_rand  is 595e8015af4e2c5532525a206b330367,
+ valid_byte is 04
+--------------the          96st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 02
+ data       is 00000000000000000000000027f3b6bf,
+ data_rand  is 6bef5d3059ae4697b1b4d82c27f3b6bf,
+ valid_byte is 04
+--------------the          97st test is done-------------------
+this is a ERROR CRC frame 
+Check passed for channel 40
+ data       is 0000000000000000000000001b4f7cb7,
+ data_rand  is 091c0c145f3961ff439137fd1b4f7cb7,
+ valid_byte is 04
+--------------the          98st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 20
+ data       is 0000da66866a3d9c8a4e2150a851f8e0,
+ data_rand  is 3575da66866a3d9c8a4e2150a851f8e0,
+ valid_byte is 0e
+--------------the          99st test is done-------------------
+this is a correct CRC frame 
+Check passed for channel 40
+ data       is 21e7ff2bfa8c285cb16ea1162a2b5bcc,
+ data_rand  is 21e7ff2bfa8c285cb16ea1162a2b5bcc,
+ valid_byte is 10
+--------------the         100st test is done-------------------
+ data       is 0000000000000000000000000000ffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 02
+Check passed for channel 40
+ data       is 000000000000000000000000ffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 04
+Check passed for channel 40
+ data       is 00000000000000000000ffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 06
+Check passed for channel 40
+ data       is 0000000000000000ffffffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 08
+Check passed for channel 40
+ data       is 000000000000ffffffffffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 0a
+Check passed for channel 40
+ data       is 00000000ffffffffffffffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 0c
+Check passed for channel 40
+ data       is 0000ffffffffffffffffffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 0e
+Check passed for channel 40
+ data       is ffffffffffffffffffffffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 10
+Check passed for channel 40
+ data       is 0000000000000000000000000000ffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 02
+Check passed for channel 40
+ data       is 000000000000000000000000ffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 04
+Check passed for channel 40
+ data       is 00000000000000000000ffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 06
+Check passed for channel 40
+ data       is 0000000000000000ffffffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 08
+Check passed for channel 40
+ data       is 000000000000ffffffffffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 0a
+Check passed for channel 40
+ data       is 00000000ffffffffffffffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 0c
+Check passed for channel 40
+ data       is 0000ffffffffffffffffffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 0e
+Check passed for channel 40
+ data       is ffffffffffffffffffffffffffffffff,
+ data_rand  is ffffffffffffffffffffffffffffffff,
+ valid_byte is 10
+Check passed for channel 40
+Check passed for channel 40
+ data       is 00000000000000000000000000000000,
+ data_rand  is 00000000000000000000000000000000,
+ valid_byte is 02
+Check passed for channel 40
+ data       is 00000000000000000000000000000000,
+ data_rand  is 00000000000000000000000000000000,
+ valid_byte is 04
+Check passed for channel 40
+ data       is 00000000000000000000000000000000,
+ data_rand  is 00000000000000000000000000000000,
+ valid_byte is 06
+Check passed for channel 40
+ data       is 00000000000000000000000000000000,
+ data_rand  is 00000000000000000000000000000000,
+ valid_byte is 08
+Check passed for channel 40
+ data       is 00000000000000000000000000000000,
+ data_rand  is 00000000000000000000000000000000,
+ valid_byte is 0a
+Check passed for channel 40
+ data       is 00000000000000000000000000000000,
+ data_rand  is 00000000000000000000000000000000,
+ valid_byte is 0c
+Check passed for channel 40
+ data       is 00000000000000000000000000000000,
+ data_rand  is 00000000000000000000000000000000,
+ valid_byte is 0e
+Check passed for channel 40
+ data       is 00000000000000000000000000000000,
+ data_rand  is 00000000000000000000000000000000,
+ valid_byte is 10
+Check passed for channel 40
+=====================TEST_PASSSED-====================
+=====================crc_correct frame is          52,crc_err frame is          48-====================
+$finish called from file "/home/verifier/ex/practise/chuangxin_frame_checker/frame_checker1/sim/top_tb1.sv", line 270.
+$finish at simulation time             40688000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 40688000 ps
+CPU Time:      1.150 seconds;       Data structure size:   0.0Mb
+Fri Jun 20 18:24:55 2025
